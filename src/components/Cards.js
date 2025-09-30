@@ -30,7 +30,7 @@ export default function DesignPhilosophy() {
   ];
 
   return (
-    <section className="container mx-auto py-8 flex flex-col gap-12">
+    <section className="!container mx-auto py-8 flex flex-col gap-12">
       <div className="flex flex-col justify-center gap-2 items-center">
         <h2 className="md:text-[2.4rem]">Our design philosophy</h2>
         <h4 className="md:text-[1rem]">

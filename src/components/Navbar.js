@@ -7,7 +7,7 @@ const Navbar = ({scroll}) => {
   return (
     <>
         <nav
-        className={` fixed w-full container mx-auto top-0 z-50 transition-all duration-500 flex justify-between items-center px-6  ${
+        className={`font-switzer fixed w-full container mx-auto top-0 z-50 transition-all duration-500 flex justify-between items-center px-6  ${
           scroll
             ? "bg-white rounded-[0.8rem] shadow-md py-3"
             : "bg-transparent text-white py-6"
@@ -19,30 +19,30 @@ const Navbar = ({scroll}) => {
           </a>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-10  text-[1rem]">
+          <div className="hidden md:flex space-x-10 font-light  text-[1.4rem]">
             <a
               href="#"
-              className="hover:text-yellow-300 transition font-medium"
+              className="hover:text-yellow-300 transition "
             >
-              Destinations
+              Home
             </a>
             <a
               href="#"
-              className="hover:text-yellow-300 transition font-medium"
+              className="hover:text-yellow-300 transition "
             >
-              Tours
+              About
             </a>
             <a
               href="#"
-              className="hover:text-yellow-300 transition font-medium"
+              className="hover:text-yellow-300 transition "
             >
-              Gallery
+              Projects
             </a>
             <a
               href="#"
-              className="hover:text-yellow-300 transition font-medium"
+              className="hover:text-yellow-300 transition "
             >
-              Blog
+              Contact
             </a>
           </div>
 
