@@ -1,16 +1,22 @@
 @import url("https://api.fontshare.com/v2/css?f[]=sentient@400,500,600,700&f[]=switzer@400,500,600,700&display=swap");
 
-.font-sentient{
-    font-family: 'Sentient', serif;
-    font-weight: 400;
+.body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden !important;
 }
-.font-switzer{
-   font-family: 'Switzer', sans-serif;
+.font-sentient {
+  font-family: "Sentient", serif;
+  font-weight: 400;
+}
+.font-switzer {
+  font-family: "Switzer", sans-serif;
 }
 
-.icons{
-    display: flex;
-    align-items: center;
-    gap: 1.25rem;
-    padding: .3rem 0rem;
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 0.3rem 0rem;
 }

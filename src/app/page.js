@@ -45,7 +45,7 @@ export default function Home() {
         {/* Navigation */}
         <Navbar scroll={scrolled} />
         {/* Hero Content */}
-        <div className="relative container mx-auto px-4 flex items-center justify-center h-full min-h-72 md:min-h-screen z-10">
+        <div className="relative container max-w-7xl px-4 mx-auto flex items-center justify-center h-full min-h-72 md:min-h-screen z-10">
           <div className="max-w-2xl flex flex-col items-center text-white mt-16 md:mt-0 md:pt-20 lg:pt-0">
             <span className="text-[0.875rem] md:text-2xl mb-1">welcome</span>
             <h1 className="text-xl font-[Sentient-Regular] text-center md:text-2xl lg:text-[2.5rem] font-bold leading-tight mb-2 font-sentient">
@@ -64,7 +64,7 @@ export default function Home() {
         </div>
       </header>
       <section className=" bg-[#f2f1ed]">
-        <div className="main container mx-auto grid grid-cols-1 md:grid-cols-2 px-8 py-6">
+        <div className="main container mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-2 px-8 py-6">
           <div className="flex flex-col gap-[3rem] py-3">
             <div className="flex flex-col gap-[1rem]">
               <h4 className="text-[1rem] md:text-[1.125rem]">
@@ -107,7 +107,7 @@ export default function Home() {
         <h2 className="text-[1.3rem]">Testimonials</h2>
         <ImgSlider/>
       </section> */}
-      <section className="container mx-auto py-14 md:py-24 bg-white dark:bg-[#0b1727] text-zinc-900 dark:text-white">
+      <section className="container mx-auto  py-14 md:py-24 bg-white dark:bg-[#0b1727] text-zinc-900 dark:text-white">
         <div className="container px-4 mx-auto">
           <div className="flex justify-center md:mb-4">
             <div className="sm:max-w-lg text-center">

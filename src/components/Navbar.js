@@ -7,7 +7,7 @@ const Navbar = ({scroll}) => {
   return (
     <>
         <nav
-        className={`font-switzer fixed w-full container mx-auto top-0 z-50 transition-all duration-500 flex justify-between items-center px-6  ${
+        className={`font-switzer fixed w-full container mx-auto max-w-7xl top-0 z-50 transition-all duration-500 flex justify-between items-center px-6  ${
           scroll
             ? "bg-white rounded-[0.8rem] shadow-md py-3"
             : "bg-transparent text-white py-6"
